@@ -1,0 +1,28 @@
+{
+  "name": "react-express-app",
+  "version": "1.0.0",
+  "description": "Application using React/Redux and Express",
+  "main": "server.js",
+  "scripts": {
+    "client-install": "cd client && npm install",
+    "start": "node server.js",
+    "server": "nodemon server.js",
+    "client": "npm start --prefix client",
+    "dev": "concurrently \"npm run server\" \"npm run client\""
+  },
+  "author": "Outlander",
+  "license": "MIT",
+  "devDependencies": {},
+  "dependencies": {
+    "concurrently": "^4.1.1",
+    "express": "^4.17.1",
+    "mongoose": "^5.9.12",
+    "nodemon": "^1.19.1"
+  },
+  "keywords": [
+    "react-redux",
+    "redux",
+    "react-node",
+    "react-node-mongodb"
+  ]
+}
