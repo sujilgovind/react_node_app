@@ -12,7 +12,9 @@
   },
   "author": "Outlander",
   "license": "MIT",
-  "devDependencies": {},
+  "devDependencies": {
+    "immer": ">=8.0.1"
+  },
   "dependencies": {
     "concurrently": "^4.1.1",
     "express": "^4.17.1",
